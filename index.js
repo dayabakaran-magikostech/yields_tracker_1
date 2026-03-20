@@ -416,7 +416,7 @@ async function buildSynthPricingSingleGroup(orderRows, kiteCreds) {
 
 		buy_synth,
 		sell_synth,
-		premium,
+		premium: (premium * -1),
 	};
 
 	return {
