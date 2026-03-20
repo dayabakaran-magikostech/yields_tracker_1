@@ -15,7 +15,7 @@
   "apps": [
     {
       "name": "yields_tracker_1",
-      "script": "./app.js",
+      "script": "./index.js",
       "autorestart": false,
       "restart_delay": 1000
     }
